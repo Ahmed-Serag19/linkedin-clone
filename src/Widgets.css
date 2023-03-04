@@ -1,0 +1,81 @@
+.widgets {
+  position: sticky;
+  top: 80px;
+  flex: 0.3;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+.widgets__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 15px;
+}
+.widgets__header > svg {
+  cursor: pointer;
+}
+.widgets__header > h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.widgets__article {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  /* justify-content: space-evenly; */
+}
+.widgets__article__left {
+  margin-left: 10px;
+}
+.widgets__article__right {
+  margin-left: 10px;
+}
+.widgets__article > .widgets__article__right > p {
+  font-weight: lighter;
+  font-size: 14px;
+}
+.follow__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.5s all;
+}
+.follow__button:hover {
+  background-color: rgb(177, 175, 175);
+}
+.widgets__article:hover {
+  background-color: whitesmoke;
+}
+
+.widgets__footer {
+  display: inline-block;
+}
+.inner__footer {
+  display: flex;
+  /* align-items: flex-end; */
+  padding: 10px;
+  cursor: pointer;
+}
+.inner__footer > h4 {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+}
+.arrow {
+  font-size: 1.5rem !important;
+  margin: 5px 0px 0px 3px;
+}
+.inner__footer > h4:hover {
+  background-color: whitesmoke;
+}
